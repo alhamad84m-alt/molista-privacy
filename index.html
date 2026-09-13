@@ -1,40 +1,562 @@
-<h2>Data Retention and Account Deletion</h2>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Molista Privacy Policy | سياسة الخصوصية</title>
 
-<p>
-  User data is retained while the account remains active or for as long as necessary to provide Molista services.
-</p>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.8;
+      margin: 0;
+      background: #FAF9F6;
+      color: #24302E;
+    }
 
-<p>
-  Users can delete their account directly from within the Molista app using the
-  <strong>“Delete Account”</strong> option in account settings.
-</p>
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 32px 20px;
+    }
 
-<p>When an account is deleted:</p>
+    .card {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+    }
 
-<ul>
-  <li>Personal account information, memberships, and user-specific data are deleted.</li>
-  <li>Lists solely owned by the user are deleted if no other members remain.</li>
-  <li>If a list is shared with other members, ownership is transferred to another member instead of deleting other users' data.</li>
-  <li>Some shared records may remain in a de-identified form, such as displaying “Deleted Member”, to preserve the integrity of shared lists and reports.</li>
-  <li>User-specific invitations and personal data are removed as part of the account deletion process.</li>
-  <li>Local account data stored on the device, including session data and related local files, is removed.</li>
-</ul>
+    h1,
+    h2 {
+      color: #2FAF9B;
+    }
 
-<p>
-  Users may also request account deletion outside the app using the following page:
-</p>
+    h1 {
+      margin-top: 0;
+    }
 
-<p>
-  <a href="https://wdghzisrikyvrilfuipw.supabase.co/functions/v1/account-deletion">
-    Delete Molista Account
-  </a>
-</p>
+    .updated {
+      color: #66706E;
+      margin-bottom: 24px;
+    }
 
-<p>
-  We may retain a limited amount of information for a limited period where necessary for security, legal compliance, or abuse prevention.
-  Once it is no longer required, the information will be deleted or de-identified.
-</p>
+    .english {
+      direction: ltr;
+      text-align: left;
+    }
 
-<p>
-  Some information may remain in system backups for a limited period according to the technical retention cycle of the services we use.
-</p>
+    .arabic {
+      direction: rtl;
+      text-align: right;
+    }
+
+    ul {
+      padding-inline-start: 24px;
+    }
+
+    a {
+      color: #2FAF9B;
+      word-break: break-word;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #E5E7E6;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Arabic -->
+  <section class="card arabic">
+
+    <h1>سياسة الخصوصية – موليستا</h1>
+    <div class="updated">آخر تحديث: سبتمبر 2026</div>
+
+    <p>
+      نحن في موليستا (Molista) نحترم خصوصيتك، ونعمل على جمع واستخدام الحد الأدنى من البيانات اللازمة لتشغيل التطبيق وتقديم خدماته.
+    </p>
+
+    <h2>البيانات التي قد نجمعها</h2>
+
+    <ul>
+      <li>بيانات الحساب، مثل الاسم والبريد الإلكتروني.</li>
+      <li>بيانات تسجيل الدخول من Google أو Apple إذا اخترت استخدام إحدى طرق تسجيل الدخول هذه.</li>
+      <li>بيانات المساحات والقوائم والمقاضي والعناصر المضافة والمشتراة.</li>
+      <li>بيانات الدعوات والأعضاء المشاركين داخل المساحة.</li>
+      <li>بيانات الفواتير التي تدخلها أو تستخرجها من الصور.</li>
+      <li>بيانات تقنية مرتبطة بالأخطاء والأعطال لتحسين استقرار التطبيق.</li>
+    </ul>
+
+    <h2>تسجيل الدخول</h2>
+
+    <p>
+      يستخدم موليستا خدمات Supabase Authentication لإدارة الحسابات والجلسات.
+    </p>
+
+    <p>
+      عند اختيار تسجيل الدخول باستخدام Google أو Apple، يتم استخدام نظام المصادقة الخاص بمقدم الخدمة لإتمام عملية تسجيل الدخول.
+      لا يحصل موليستا على كلمة مرور حساب Google أو Apple الخاصة بك.
+    </p>
+
+    <h2>القوائم والمساحات المشتركة</h2>
+
+    <p>
+      يمكن مشاركة مساحة داخل موليستا مع أعضاء آخرين.
+      وقد يتمكن أعضاء المساحة من رؤية الأصناف المضافة، ومن أضافها، ومن قام بشرائها، وحالة الصنف وبعض البيانات المرتبطة به.
+    </p>
+
+    <p>
+      لا تتم مشاركة بيانات مساحة مع مستخدمين غير مخولين بالوصول إليها.
+    </p>
+
+    <h2>الإدخال الصوتي</h2>
+
+    <p>
+      يوفر موليستا إمكانية إضافة المقاضي بالصوت.
+      تتم معالجة الصوت محليًا على الجهاز باستخدام تقنيات التعرف الصوتي المحلية، ولا يقوم موليستا برفع التسجيلات الصوتية إلى خوادمه لأغراض التعرف على الكلام.
+    </p>
+
+    <p>
+      قد يتم حفظ بعض التصحيحات النصية غير الحساسة لتحسين فهم أسماء المنتجات والكلمات، بعد تطبيق ضوابط تهدف إلى منع مشاركة البيانات الشخصية أو الحساسة.
+    </p>
+
+    <h2>الصور والفواتير</h2>
+
+    <p>
+      يمكن للمستخدم تصوير أو اختيار صورة فاتورة لاستخراج بيانات منها.
+      تتم معالجة الصور والنصوص محليًا على الجهاز باستخدام تقنيات التعرف الضوئي على الحروف ومعالجة الصور.
+    </p>
+
+    <p>
+      قد يستخدم التطبيق قدرات ذكاء اصطناعي محلية على الأجهزة المدعومة لتحسين فهم النص المستخرج من الفاتورة وتنظيمه.
+      ولا يتم إرسال صورة الفاتورة إلى خدمة ذكاء اصطناعي سحابية لهذا الغرض.
+    </p>
+
+    <p>
+      لا يستخدم موليستا صور الفواتير لتدريب نماذج ذكاء اصطناعي عامة.
+      وقد تتم مزامنة البيانات المستخرجة من الفاتورة مع حسابك أو مساحتك لتوفير التقارير وسجل الأسعار.
+    </p>
+
+    <h2>التخزين والمزامنة</h2>
+
+    <p>
+      يستخدم موليستا Supabase لتخزين ومزامنة بيانات الحساب والمساحات والقوائم والبيانات المرتبطة بها.
+      ويتم تطبيق ضوابط وصول بحيث لا يستطيع المستخدم الوصول إلا إلى البيانات المصرح له بها.
+    </p>
+
+    <p>
+      وقد يحتفظ التطبيق ببعض البيانات محليًا على الجهاز لتوفير العمل دون اتصال بالإنترنت وتحسين الأداء.
+    </p>
+
+    <h2>نماذج الصوت ومعالجة الفواتير</h2>
+
+    <p>
+      قد يقوم التطبيق بتنزيل ملفات تقنية إضافية عند اختيار المستخدم تفعيل بعض الميزات، مثل نموذج التعرف الصوتي العربي أو نموذج معالجة الفواتير العربية.
+    </p>
+
+    <p>
+      قد يتم تنزيل هذه الملفات من خدمات تخزين خارجية مثل Cloudflare R2.
+      وهي ملفات تقنية خاصة بتشغيل الميزات محليًا على الجهاز ولا تتضمن بيانات المستخدم.
+    </p>
+
+    <h2>تقارير الأعطال</h2>
+
+    <p>
+      يستخدم موليستا خدمة Sentry للمساعدة في اكتشاف الأعطال والأخطاء التقنية وتحسين استقرار التطبيق.
+    </p>
+
+    <p>قد يتم إرسال معلومات تقنية مثل:</p>
+
+    <ul>
+      <li>نوع الجهاز ونظام التشغيل.</li>
+      <li>إصدار التطبيق.</li>
+      <li>معلومات الخطأ أو التعطل.</li>
+    </ul>
+
+    <p>
+      نعمل على تجنب إرسال كلمات المرور أو محتوى القوائم أو المعلومات الحساسة ضمن تقارير الأعطال.
+    </p>
+
+    <h2>استخدام البيانات</h2>
+
+    <p>نستخدم البيانات فقط من أجل:</p>
+
+    <ul>
+      <li>تشغيل التطبيق.</li>
+      <li>مزامنة القوائم والمساحات.</li>
+      <li>إدارة الحسابات والدعوات.</li>
+      <li>تقديم التقارير وسجل الأسعار.</li>
+      <li>تحسين جودة التطبيق واستقراره.</li>
+      <li>منع الاستخدام غير المصرح به أو إساءة الاستخدام.</li>
+    </ul>
+
+    <p>
+      <strong>لا نبيع بيانات المستخدمين للمعلنين أو لأي جهة أخرى.</strong>
+    </p>
+
+    <h2>الاحتفاظ بالبيانات وحذف الحساب</h2>
+
+    <p>
+      يتم الاحتفاظ ببيانات المستخدم طالما كان الحساب قائمًا أو طالما كانت هناك حاجة إليها لتقديم خدمات موليستا.
+    </p>
+
+    <p>
+      يمكن للمستخدم حذف حسابه مباشرة من داخل تطبيق موليستا من خلال خيار
+      <strong>“حذف الحساب”</strong>
+      الموجود في إعدادات الحساب.
+    </p>
+
+    <p>عند حذف الحساب:</p>
+
+    <ul>
+      <li>تُحذف بيانات الحساب الشخصية والعضويات والبيانات الخاصة المرتبطة بالمستخدم.</li>
+
+      <li>
+        تُحذف القوائم التي يملكها المستخدم إذا لم يكن بها أعضاء آخرون.
+      </li>
+
+      <li>
+        إذا كانت القائمة مشتركة مع أعضاء آخرين، تُنقل ملكيتها إلى عضو آخر بدل حذف بيانات بقية الأعضاء.
+      </li>
+
+      <li>
+        قد تبقى بعض السجلات المشتركة بصورة غير معرِّفة للمستخدم، مثل ظهور عبارة
+        “عضو محذوف”، للحفاظ على سلامة القوائم والتقارير المشتركة.
+      </li>
+
+      <li>
+        تُحذف الدعوات والبيانات الشخصية الخاصة بالمستخدم وفق آلية حذف الحساب.
+      </li>
+
+      <li>
+        تُحذف بيانات الحساب المحلية من الجهاز، بما في ذلك بيانات الجلسة والملفات المحلية المرتبطة بالحساب.
+      </li>
+    </ul>
+
+    <p>
+      يمكن أيضًا طلب حذف الحساب من خارج التطبيق من خلال صفحة حذف الحساب:
+    </p>
+
+    <p>
+      <a href="https://wdghzisrikyvrilfuipw.supabase.co/functions/v1/account-deletion">
+        حذف حساب موليستا
+      </a>
+    </p>
+
+    <p>
+      قد نحتفظ بقدر محدود من البيانات لفترة محدودة إذا كان ذلك ضروريًا لأغراض أمنية أو قانونية أو لمنع إساءة الاستخدام.
+      وبعد انتهاء الحاجة إليها، يتم حذفها أو إزالة المعلومات التي يمكن أن تعرّف بالمستخدم منها.
+    </p>
+
+    <p>
+      قد تستغرق إزالة بعض البيانات من النسخ الاحتياطية فترة زمنية محدودة وفق دورة الاحتفاظ التقنية للأنظمة المستخدمة.
+    </p>
+
+    <h2>الأطفال</h2>
+
+    <p>
+      موليستا ليس مصممًا لجمع بيانات شخصية من الأطفال دون السن المسموح به قانونيًا لاستخدام الخدمات الرقمية.
+    </p>
+
+    <h2>الأمان</h2>
+
+    <p>
+      نتخذ إجراءات تقنية وتنظيمية معقولة لحماية بيانات المستخدم، بما في ذلك التحكم في الصلاحيات، تأمين جلسات المستخدم، وعزل بيانات المساحات والحسابات.
+    </p>
+
+    <p>
+      ومع ذلك، لا توجد وسيلة تخزين أو نقل إلكتروني آمنة بنسبة 100%.
+    </p>
+
+    <h2>الخدمات الخارجية</h2>
+
+    <p>قد يعتمد موليستا على خدمات خارجية، ومنها:</p>
+
+    <ul>
+      <li>Google</li>
+      <li>Apple</li>
+      <li>Supabase</li>
+      <li>Sentry</li>
+      <li>Cloudflare</li>
+    </ul>
+
+    <p>
+      وقد تخضع بعض البيانات التي تعالجها هذه الخدمات لسياسات الخصوصية الخاصة بها.
+    </p>
+
+    <h2>التغييرات على سياسة الخصوصية</h2>
+
+    <p>
+      قد نقوم بتحديث هذه السياسة عند إضافة ميزات جديدة أو عند الحاجة إلى تحسينها أو الامتثال للمتطلبات النظامية.
+      وسيتم تحديث تاريخ آخر تعديل عند إجراء تغييرات جوهرية.
+    </p>
+
+    <h2>التواصل معنا</h2>
+
+    <p>
+      لأي استفسار متعلق بالخصوصية أو البيانات، يمكنك التواصل معنا عبر:
+    </p>
+
+    <p>
+      <strong>البريد الإلكتروني:</strong>
+      <a href="mailto:alhamad.84m@gmail.com">
+        alhamad.84m@gmail.com
+      </a>
+    </p>
+
+  </section>
+
+
+  <!-- English -->
+  <section class="card english">
+
+    <h1>Molista Privacy Policy</h1>
+    <div class="updated">Last updated: September 2026</div>
+
+    <p>
+      At Molista, we respect your privacy and aim to collect and use only the minimum amount of data necessary to operate the app and provide its services.
+    </p>
+
+    <h2>Information We May Collect</h2>
+
+    <ul>
+      <li>Account information, such as your name and email address.</li>
+      <li>Google or Apple sign-in information if you choose to use either sign-in method.</li>
+      <li>Spaces, shopping lists, grocery items, added items, and purchased items.</li>
+      <li>Invitations and members participating in a shared space.</li>
+      <li>Receipt information that you enter or extract from images.</li>
+      <li>Technical error and crash information used to improve app stability.</li>
+    </ul>
+
+    <h2>Sign-In</h2>
+
+    <p>
+      Molista uses Supabase Authentication to manage accounts and sessions.
+    </p>
+
+    <p>
+      If you choose to sign in with Google or Apple, the authentication system provided by that service is used to complete the sign-in process.
+      Molista does not receive your Google or Apple account password.
+    </p>
+
+    <h2>Shared Lists and Spaces</h2>
+
+    <p>
+      A Molista space can be shared with other members.
+      Members of a space may be able to see grocery items, who added an item, who purchased it, its status, and related information.
+    </p>
+
+    <p>
+      Space data is not shared with users who are not authorized to access that space.
+    </p>
+
+    <h2>Voice Input</h2>
+
+    <p>
+      Molista provides voice-based grocery entry.
+      Voice recognition is processed locally on the device using on-device speech recognition technologies.
+      Molista does not upload voice recordings to its servers for speech recognition.
+    </p>
+
+    <p>
+      Some non-sensitive text corrections may be stored to improve product and grocery understanding, after applying safeguards intended to prevent personal or sensitive information from being shared.
+    </p>
+
+    <h2>Images and Receipts</h2>
+
+    <p>
+      Users may take or select a receipt image to extract receipt information.
+      Images and text may be processed locally on the device using optical character recognition and image-processing technologies.
+    </p>
+
+    <p>
+      On supported devices, Molista may use on-device artificial intelligence capabilities to improve the interpretation and organization of text extracted from receipts.
+      Receipt images are not sent to a cloud AI service for this purpose.
+    </p>
+
+    <p>
+      Molista does not use receipt images to train general-purpose artificial intelligence models.
+      Extracted receipt information may be synchronized with your account or space to provide reports and price history.
+    </p>
+
+    <h2>Storage and Synchronization</h2>
+
+    <p>
+      Molista uses Supabase to store and synchronize account, space, shopping list, and related data.
+      Access controls are applied so users may access only the data they are authorized to access.
+    </p>
+
+    <p>
+      Some information may also be stored locally on the device to support offline use and improve performance.
+    </p>
+
+    <h2>Speech and Receipt Processing Models</h2>
+
+    <p>
+      The app may download additional technical files when users choose to enable certain features, such as the Arabic speech recognition model or Arabic receipt-processing model.
+    </p>
+
+    <p>
+      These files may be downloaded from external storage services such as Cloudflare R2.
+      They are technical application files used to operate features locally on the device and do not contain user data.
+    </p>
+
+    <h2>Crash Reporting</h2>
+
+    <p>
+      Molista uses Sentry to help identify technical errors and crashes and improve app stability.
+    </p>
+
+    <p>Technical information may include:</p>
+
+    <ul>
+      <li>Device type and operating system.</li>
+      <li>App version.</li>
+      <li>Error or crash information.</li>
+    </ul>
+
+    <p>
+      We aim to avoid sending passwords, shopping list contents, or sensitive information in crash reports.
+    </p>
+
+    <h2>How We Use Information</h2>
+
+    <p>We use information only to:</p>
+
+    <ul>
+      <li>Operate the application.</li>
+      <li>Synchronize shopping lists and spaces.</li>
+      <li>Manage accounts and invitations.</li>
+      <li>Provide reports and price history.</li>
+      <li>Improve app quality and stability.</li>
+      <li>Prevent unauthorized use or abuse.</li>
+    </ul>
+
+    <p>
+      <strong>We do not sell user data to advertisers or other third parties.</strong>
+    </p>
+
+    <h2>Data Retention and Account Deletion</h2>
+
+    <p>
+      User data is retained while the account remains active or for as long as necessary to provide Molista services.
+    </p>
+
+    <p>
+      Users can delete their account directly from within the Molista app using the
+      <strong>“Delete Account”</strong>
+      option in account settings.
+    </p>
+
+    <p>When an account is deleted:</p>
+
+    <ul>
+      <li>
+        Personal account information, memberships, and user-specific data are deleted.
+      </li>
+
+      <li>
+        Lists solely owned by the user are deleted if no other members remain.
+      </li>
+
+      <li>
+        If a list is shared with other members, ownership is transferred to another member instead of deleting other users' data.
+      </li>
+
+      <li>
+        Some shared records may remain in a de-identified form, such as displaying “Deleted Member”, to preserve the integrity of shared lists and reports.
+      </li>
+
+      <li>
+        User-specific invitations and personal data are removed as part of the account deletion process.
+      </li>
+
+      <li>
+        Local account data stored on the device, including session data and related local files, is removed.
+      </li>
+    </ul>
+
+    <p>
+      Users may also request account deletion outside the app using the following page:
+    </p>
+
+    <p>
+      <a href="https://wdghzisrikyvrilfuipw.supabase.co/functions/v1/account-deletion">
+        Delete Molista Account
+      </a>
+    </p>
+
+    <p>
+      We may retain a limited amount of information for a limited period where necessary for security, legal compliance, or abuse prevention.
+      Once it is no longer required, the information will be deleted or de-identified.
+    </p>
+
+    <p>
+      Some information may remain in system backups for a limited period according to the technical retention cycle of the services we use.
+    </p>
+
+    <h2>Children</h2>
+
+    <p>
+      Molista is not designed to knowingly collect personal information from children below the legally permitted age for using digital services.
+    </p>
+
+    <h2>Security</h2>
+
+    <p>
+      We use reasonable technical and organizational safeguards to protect user data, including access controls, secure user sessions, and separation of account and space data.
+    </p>
+
+    <p>
+      However, no electronic storage or transmission method can be guaranteed to be 100% secure.
+    </p>
+
+    <h2>Third-Party Services</h2>
+
+    <p>Molista may rely on third-party services, including:</p>
+
+    <ul>
+      <li>Google</li>
+      <li>Apple</li>
+      <li>Supabase</li>
+      <li>Sentry</li>
+      <li>Cloudflare</li>
+    </ul>
+
+    <p>
+      Information processed by these services may also be subject to their respective privacy policies.
+    </p>
+
+    <h2>Changes to This Privacy Policy</h2>
+
+    <p>
+      We may update this Privacy Policy when new features are introduced, improvements are made, or legal or regulatory requirements change.
+      The “Last updated” date will be revised when material changes are made.
+    </p>
+
+    <h2>Contact Us</h2>
+
+    <p>
+      For privacy or data-related questions, contact us at:
+    </p>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:alhamad.84m@gmail.com">
+        alhamad.84m@gmail.com
+      </a>
+    </p>
+
+  </section>
+
+</div>
+
+</body>
+</html>
